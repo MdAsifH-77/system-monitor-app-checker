@@ -1,8 +1,6 @@
-# Import requests for HTTP requests
 import requests
 
-# URL of the application/website to check
-URL = "https://www.google.com"  # Replace with your target app URL if needed
+URL = "https://www.google.com"
 
 def check_app_health():
     try:
