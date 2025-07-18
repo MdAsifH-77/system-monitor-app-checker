@@ -1,13 +1,10 @@
-# Import required modules
 import psutil
 import logging
 
-# Set thresholds
-CPU_THRESHOLD = 80      # CPU usage threshold %
-MEMORY_THRESHOLD = 80   # Memory usage threshold %
-DISK_THRESHOLD = 90     # Disk usage threshold %
+CPU_THRESHOLD = 80
+MEMORY_THRESHOLD = 80
+DISK_THRESHOLD = 90
 
-# Configure logging to file
 logging.basicConfig(filename="system_health.log", level=logging.INFO, format="%(asctime)s - %(message)s")
 
 def check_system_health():
